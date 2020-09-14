@@ -1,0 +1,27 @@
+.navlist {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+.title {
+  color: black;
+  text-decoration: none;
+  font-size: 3rem;
+  padding: 20px 0 20px 0;
+}
+.navbar {
+  margin-bottom: 50px;
+}
+.navitem {
+  text-decoration: none;
+  color: #999999;
+  margin-right: 1.3rem;
+  font-size: 0.9rem;
+}
+.active-link {
+  color: #333;
+}
+.blog > h1 {
+  text-decoration: none;
+  color: #999999;
+}
