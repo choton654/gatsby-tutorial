@@ -1,4 +1,5 @@
 import React from "react"
+import Head from "./src/components/head"
 import Layout from "./src/components/layout"
 
 // Logs when the client route changes
@@ -10,5 +11,10 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 // Wraps every page in a component
 export const wrapPageElement = ({ element, props }) => {
   console.log(props)
-  return <Layout {...props}>{element}</Layout>
+  return (
+    <Layout {...props}>
+      <Head />
+      {element}
+    </Layout>
+  )
 }

@@ -1,9 +1,11 @@
 import { Link, navigate } from "gatsby"
 import React from "react"
+import Head from "../components/head"
 
 const IndexPage = () => {
   return (
     <div>
+      <Head title="Home" />
       <h1>Hello.</h1>
       <h2
         onClick={() => {

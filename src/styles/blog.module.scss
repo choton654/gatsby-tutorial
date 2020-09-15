@@ -1,10 +1,14 @@
 .post {
   margin: 1rem;
+  display: block;
+  background-color: #f4f4f4;
+  padding: 1rem;
   a {
     color: #000000;
     text-decoration: none;
   }
 }
 
-.posts {
+.post:hover {
+  background-color: #e4e4e4e4;
 }
